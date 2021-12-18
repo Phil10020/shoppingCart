@@ -125,7 +125,7 @@ function getCartList(){
   })
 }
 
-//刪除單一品項
+//刪除單一品項.
 cartList.addEventListener("click",function(e){
   e.preventDefault();
   const cartId=e.target.getAttribute("data-id");
